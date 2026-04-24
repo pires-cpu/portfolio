@@ -1,19 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio Hacker</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-   
-    <div class="meuportfólio"></div>
-<h1 class="textoportfólio">meu portfólio</h1>
-    <h2>Rafael Paffrath Pires
-        17y</h2>
 
-        <h2>tenho experiencia em html, css, javascript, java, Banco de dados, Desing gráfico e powershell</h2> 
-    
+<input type="checkbox" id="toggle">
+<label for="toggle" class="switch"></label>
+
+<div class="overlay"></div>
+<div class="particles"></div>
+
+<header>
+    <h1 class="typing neon">Rafael Paffrath Pires</h1>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre" class="reveal">
+    <h1 class="neon">Sobre</h1>
+    <img src="img/perfil.jpg">
+    <div class="resumoproprio"><h1 class="sobremim">
+        atualmente estou cursando o técnico no colégio São Lucas e sou aprendiz em técnico de desenvolvimento de sistemas, </h1>
+     <h1 class="sobremim2">estou a procura de um trabalho como designer gráfico principalmente mas consigo atuar em outras áreas de interesse.</h1>
+    <h1 class="sobremim3"> sempre em busca de aprender coisas novas para melhorar o meu trabalho como profissional</h1></div>
+</section>
+
+<section id="skills" class="reveal">
+    <h1 class="neon">Skills
+
+    </h1>
+
+    <div class="cards">
+        
+        <div class="cards">
+
+    <div class="card-skill">
+        <span>HTML</span>
+        <img src="img/html.png" alt="HTML">
+    </div>
+
+    <div class="card-skill">
+        <span>CSS</span>
+        <img src="img/css.png" alt="CSS">
+    </div>
+
+    <div class="card-skill">
+        <span>GitHub</span>
+        <img src="img/github.png" alt="GitHub">
+    </div>
+
+    <div class="card-skill">
+        <span>VS Code</span>
+        <img src="img/vscode.png" alt="VS Code">
+    </div>
+
+</div>
+    </div>
+</section>
+
+<section id="projetos" class="reveal">
+   <div class="projeto-box">
+    <section id="projetos" class="reveal">
+    <h2 class="neon">Projetos</h2>
+
+    <div class="github-box">
+        <h3 class="gitpro">🚀 Meus Projetos no GitHub</h3>
+        <p class="gitpro2">Acesse meus repositórios e acompanhe minha evolução como desenvolvedor.</p>
+
+        <a href="https://github.com/pires-cpu?tab=repositories" target="_blank" class="btn-github">
+            Ver GitHub
+        </a>
+    </div>
+</section>
+</div>
+</section>
+
+<section id="contato" class="reveal">
+    <h2 class="neon">Contato</h2>
+
+    <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensagem"></textarea>
+        <button class="btn-glow">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>Rafas • 2026</p>
+</footer>
+
 </body>
 </html>
